@@ -1,20 +1,31 @@
-Objective
+## Objective
+
 The objective of this workshop is to write a console-based shopping cart with
 Java. The shopping cart will be stored with an appropriate collection type.
-Setup
+
+## Setup
+
 a. Create an account on Github.com. You can ignore this step if you have an
 account.
+
 b. Create a repository on Github
+
 c. Open your IDE and create the directories called src and classes; these
 directories are for your source code and compiled Java classes respectively
+
 d. Make the project directory a Git repository
+
 e. Add .gitignore to ignore the target directory
+e. Add `.gitignore` to ignore the target directory
+
 f. Add the remote repository (step b above) as the origin of your local
 repository
-Workshop
+
+## Workshop
 Write a Java console program that allows a user to add, remove and list the
 contents of a shopping card.
 The behaviour of the program is shown below. The > is the prompt
+```
 Welcome to your shopping cart
 > list
 Your cart is empty
@@ -33,7 +44,6 @@ orange removed from cart
 1. apple
 2. pear
 > add apple, grapes
-Day 01 Workshop Software Development Foundation
 You have apple in your cart
 grapes added to cart
 > list
@@ -42,18 +52,25 @@ grapes added to cart
 3. grapes
 > delete 4
 Incorrect item index
+```
+
 You are to implement the following commands
-• list - list the contents of the cart. If the cart is empty, print an
+- list - list the contents of the cart. If the cart is empty, print an
+- `list` - list the contents of the cart. If the cart is empty, print an
 appropriate message. The contents of the cart should be numbered when
 you are listing them
-• add - add one or more items to the cart. Multiple items are separated by a
+- add - add one or more items to the cart. Multiple items are separated by a
+- `add` - add one or more items to the cart. Multiple items are separated by a
 comma (,).
 You should not add an item that is already in the cart. Print an appropriate
 message.
 Item names are case sensitive (or you can try implementing case
 insensitive)
-• delete - delete an item from the cart based on the item’s index (from
+- delete - delete an item from the cart based on the item’s index (from
+- `delete` - delete an item from the cart based on the item’s index (from
 list command). If an incorrect index is provided, display an error message
-Submission
+
+## Submission
 When you have completed your program, commit and push your code to the
-remote repository.. 
+remote repository.
+remote repository.
